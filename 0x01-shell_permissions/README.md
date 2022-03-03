@@ -2,3 +2,4 @@
 0-iam_betty switches user to betty
 2-groups list all groups of current user
 3-new_owner changes ownership to betty
+4-empty creates empty file
