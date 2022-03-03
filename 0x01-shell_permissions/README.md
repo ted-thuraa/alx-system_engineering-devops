@@ -7,3 +7,4 @@
 6-multiple_permissions adds execute permission to group owner and read permission to other user
 7-everybody adds execute permissions to everybody
 8-james_bond only other users have all the permissions
+9-John_Doe adds all permissions to owner and group owner execution rights and read and write to other users
