@@ -9,3 +9,4 @@
 8-james_bond only other users have all the permissions
 9-John_Doe adds all permissions to owner and group owner execution rights and read and write to other users
 10-mirror_permissions adds same mode as olleh
+directory permissions
