@@ -6,3 +6,4 @@
 5-execute adds execute permissions to the owner of hello
 6-multiple_permissions adds execute permission to group owner and read permission to other user
 7-everybody adds execute permissions to everybody
+8-james_bond only other users have all the permissions
