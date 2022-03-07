@@ -4,3 +4,4 @@
 
 4-lastlines displays the last 10 lines of etc/passwd
 5-firstlines display first 10 lines
+6-third_line displays the tird line of the file iacta
