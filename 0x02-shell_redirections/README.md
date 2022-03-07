@@ -7,3 +7,4 @@
 6-third_line displays the tird line of the file iacta
 7-file creates new file <br />
 8-cwd_state saves current state of the directory <br />
+9-duplicate_last_line diplacates last line of iacta <br />
