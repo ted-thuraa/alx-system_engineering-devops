@@ -11,3 +11,10 @@ Add /action to the PATH. /action should be the last directory the shell looks in
 Name: BEST
 
 Value: School.<br />
+7-create_global_variable Create a script that creates a new global variable.
+
+
+
+Name: BEST
+
+Value: School. <br />
