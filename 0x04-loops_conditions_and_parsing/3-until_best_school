@@ -6,4 +6,5 @@ n=0
 until [ $n -ge 10 ]
 do
 	echo "Best School"
+	(( n++ ))
 done
