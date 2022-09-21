@@ -1,10 +1,20 @@
 #!/usr/bin/env bas
 # redirect to 404
+STRING="Holberton School for the win!"
+REDIRECT="\n\tlocation /redirect_me {\n\t\treturn 301 https://youtu.be/dQw4w9WgXcQ;\n\t}\n"
+FILE="/etc/nginx/sites-available/default"
+
+ERRORFILE="/usr/share/nginx/html/404error.html"
+FOUR="Ceci n'est pas une page"
+ERRORREDIRECT="\n\terror_page 404 /404error.html;\n\tlocation = /404error.html {\n\t\troot /usr/share/nginx/html;\n\t\tinternal;\n\t}\n"
+
 apt-get -y update
 apt-get -y install nginx
-service nginx start
-sed -i "44i error_page 404 /404.html;" /etc/nginx/sites-available/default
+ufw allow 'Nginx HTTP'
+sudo echo "$STRING" > /var/www/html/index.nginx-debian.html
+sed -i "37i\ $REDIRECT" "$FILE"
 
-echo "Ceci n'est pas une page" > /usr/share/nginx/html/404error.html
+echo "$FOUR" > "$ERRORFILE"
+sed -i "37i\ $ERRORREDIRECT" "$FILE"
 
 service nginx restart
