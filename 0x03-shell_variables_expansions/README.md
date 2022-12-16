@@ -1,3 +1,16 @@
+## Resources
+
+[Expansions](http://linuxcommand.org/lc3_lts0080.php)
+
+[Shell Arithmetic](https://www.gnu.org/software/bash/manual/html_node/Shell-Arithmetic.html)
+
+[Variables](https://tldp.org/LDP/Bash-Beginners-Guide/html/sect_03_02.html)
+
+[Shell initialization files](https://tldp.org/LDP/Bash-Beginners-Guide/html/sect_03_01.html)
+
+[The alias Command](http://www.linfo.org/alias.html)
+
+
 0-alias creates a script that creates an alias.<br />
 1-hello_you Create a script that prints hello user, where user is the current Linux user.<br />
 Add /action to the PATH. /action should be the last directory the shell looks into when looking for a program. <br />
